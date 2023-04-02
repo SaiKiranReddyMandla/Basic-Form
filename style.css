@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.main-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    outline: 2px solid black;
+}
+
+.form-heading{
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.main-form{
+    width: 100%;
+    margin: auto;
+}
+
+.form-list{
+    
+    margin: 10px 0;
+}
+
+.form-list label{
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+}
+
+.form-list input{
+    width: 25%;
+}
+
+.form-gender{
+    width: 100%;
+}
+
+.form-gender .gender-label{
+    width: 39%;
+    text-align: end;
+    padding:0px 56px
+}
+
+.gender-label{
+    display: inline-block;
+}
+.gender-options{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.gender-options input{
+    margin: 5px;
+    padding: 5px;
+}
+
+.address-label{
+
+    vertical-align: top;
+}
+
+.text-area{
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+}
+
+.city-list{
+    width: 25%;
+    margin: auto;
+}
+
+spec-label{
+    display: inline-block;
+}
+
+.form-button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
